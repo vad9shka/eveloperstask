@@ -26,8 +26,9 @@ public class Config {
     @BeforeTest
     public void start(){
 
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         //c:\\chromedriver.exe
+        System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
         driver = new ChromeDriver();
 
         driver.get(nameUrl);
