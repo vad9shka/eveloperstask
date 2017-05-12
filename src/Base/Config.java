@@ -27,6 +27,7 @@ public class Config {
     public void start(){
 
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        //c:\\chromedriver.exe
         driver = new ChromeDriver();
 
         driver.get(nameUrl);
